@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+    "name": "Firefox Tab Stealer",
+    "description": "Steal tabs from other Firefox windows",
+    "version": "1.0",
+    "permissions": ["tabs"],
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": true
+    },
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "firefox-tab-stealer@midnightdevlab.eu"
+        }
+    }
+}
+
